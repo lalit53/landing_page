@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+img.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 200px;
+}
+
+.header{
+    padding: 10px,16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header" id="myHeader">
+    <h2>My Header</Header></h2>
+</div>
+<h2>Three Equal Columns</h2>
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <img class="sticky" src="img_avatar.png" alt="Avatar">
+    <p>Lorem ipsum dolor amet 8-bit lumbersexual kickstarter chartreuse XOXO gluten-free. Etsy kitsch cloud bread, echo park keytar meh next level keffiyeh flannel chartreuse franzen bitters tote bag disrupt. Forage echo park schlitz knausgaard polaroid tote bag meh. Whatever lomo viral, mixtape actually pabst before they sold out keffiyeh ugh gentrify irony.
+
+        Ethical letterpress copper mug ramps marfa prism lumbersexual chillwave leggings pork belly banjo woke. Tilde la croix marfa VHS hoodie twee. Keffiyeh gastropub williamsburg, actually tofu artisan iPhone vice 90's synth sustainable intelligentsia. Gastropub tumeric tousled humblebrag. Sartorial microdosing offal palo santo yr skateboard XOXO. Brunch ramps lumbersexual, organic viral yuccie hot chicken kitsch try-hard irony PBR&B. Sriracha kale chips blue bottle neutra, plaid PBR&B wayfarers fam narwhal coloring book.
+        
+        Lomo snackwave jean shorts slow-carb, butcher williamsburg bespoke tattooed skateboard adaptogen everyday carry YOLO. Offal activated charcoal hell of pitchfork portland. Fixie palo santo edison bulb heirloom, blue bottle vegan literally cold-pressed. Distillery skateboard kogi ramps drinking vinegar messenger bag palo santo hoodie street art occupy crucifix PBR&B heirloom. Iceland ethical slow-carb hoodie franzen cardigan lumbersexual mustache craft beer poke next level. Adaptogen shaman normcore occupy, pabst food truck hoodie cardigan vegan beard woke. Pour-over kitsch keffiyeh shaman kale chips disrupt palo santo af pitchfork butcher.
+        
+        Cardigan retro selfies poke, health goth pork belly art party poutine. Actually XOXO readymade vexillologist pug, direct trade biodiesel copper mug edison bulb banjo la croix ugh. Literally put a bird on it godard tattooed, before they sold out leggings tacos whatever venmo twee. Meggings taxidermy sustainable, lumbersexual cornhole skateboard blog palo santo banjo hell of fingerstache mumblecore tbh. Skateboard chicharrones selvage taiyaki wolf neutra truffaut beard pour-over quinoa four loko whatever messenger bag iPhone. Sartorial fixie franzen schlitz meh pickled jianbing church-key live-edge distillery subway tile cray. Craft beer stumptown flannel, mustache pitchfork sartorial microdosing crucifix kinfolk.
+        
+        Pug waistcoat pour-over, man bun seitan raw denim vegan. Messenger bag ramps taiyaki, salvia pitchfork af artisan lomo pug bicycle rights coloring book. Austin put a bird on it DIY distillery lomo taiyaki. Narwhal bicycle rights woke hammock. Salvia iceland hoodie, hell of af beard organic echo park cronut single-origin coffee hot chicken farm-to-table seitan truffaut freegan. Bicycle rights kale chips portland live-edge. Post-ironic literally taxidermy chicharrones seitan hoodie.
+        
+        Try-hard ennui thundercats, blue bottle wayfarers mixtape jianbing slow-carb subway tile portland DIY master cleanse truffaut. VHS keytar biodiesel mixtape echo park, skateboard readymade pok pok vinyl drinking vinegar selfies food truck af venmo migas. Knausgaard truffaut master cleanse, activated charcoal chartreuse leggings mumblecore raclette readymade affogato cray franzen salvia lyft tattooed. Hot chicken air plant DIY farm-to-table roof party flannel. Mumblecore chambray direct trade butcher hoodie. Taxidermy tote bag knausgaard raw denim.
+        
+        Oh. You need a little dummy text for your mockup? How quaint.
+        
+        I bet you’re still using Bootstrap too…</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p> Lorem ipsum dolor amet 8-bit lumbersexual kickstarter chartreuse XOXO gluten-free. Etsy kitsch cloud bread, echo park keytar meh next level keffiyeh flannel chartreuse franzen bitters tote bag disrupt. Forage echo park schlitz knausgaard polaroid tote bag meh. Whatever lomo viral, mixtape actually pabst before they sold out keffiyeh ugh gentrify irony.
+
+        Ethical letterpress copper mug ramps marfa prism lumbersexual chillwave leggings pork belly banjo woke. Tilde la croix marfa VHS hoodie twee. Keffiyeh gastropub williamsburg, actually tofu artisan iPhone vice 90's synth sustainable intelligentsia. Gastropub tumeric tousled humblebrag. Sartorial microdosing offal palo santo yr skateboard XOXO. Brunch ramps lumbersexual, organic viral yuccie hot chicken kitsch try-hard irony PBR&B. Sriracha kale chips blue bottle neutra, plaid PBR&B wayfarers fam narwhal coloring book.
+        
+        Lomo snackwave jean shorts slow-carb, butcher williamsburg bespoke tattooed skateboard adaptogen everyday carry YOLO. Offal activated charcoal hell of pitchfork portland. Fixie palo santo edison bulb heirloom, blue bottle vegan literally cold-pressed. Distillery skateboard kogi ramps drinking vinegar messenger bag palo santo hoodie street art occupy crucifix PBR&B heirloom. Iceland ethical slow-carb hoodie franzen cardigan lumbersexual mustache craft beer poke next level. Adaptogen shaman normcore occupy, pabst food truck hoodie cardigan vegan beard woke. Pour-over kitsch keffiyeh shaman kale chips disrupt palo santo af pitchfork butcher.
+        
+        Cardigan retro selfies poke, health goth pork belly art party poutine. Actually XOXO readymade vexillologist pug, direct trade biodiesel copper mug edison bulb banjo la croix ugh. Literally put a bird on it godard tattooed, before they sold out leggings tacos whatever venmo twee. Meggings taxidermy sustainable, lumbersexual cornhole skateboard blog palo santo banjo hell of fingerstache mumblecore tbh. Skateboard chicharrones selvage taiyaki wolf neutra truffaut beard pour-over quinoa four loko whatever messenger bag iPhone. Sartorial fixie franzen schlitz meh pickled jianbing church-key live-edge distillery subway tile cray. Craft beer stumptown flannel, mustache pitchfork sartorial microdosing crucifix kinfolk.
+        
+        Pug waistcoat pour-over, man bun seitan raw denim vegan. Messenger bag ramps taiyaki, salvia pitchfork af artisan lomo pug bicycle rights coloring book. Austin put a bird on it DIY distillery lomo taiyaki. Narwhal bicycle rights woke hammock. Salvia iceland hoodie, hell of af beard organic echo park cronut single-origin coffee hot chicken farm-to-table seitan truffaut freegan. Bicycle rights kale chips portland live-edge. Post-ironic literally taxidermy chicharrones seitan hoodie.
+        
+        Try-hard ennui thundercats, blue bottle wayfarers mixtape jianbing slow-carb subway tile portland DIY master cleanse truffaut. VHS keytar biodiesel mixtape echo park, skateboard readymade pok pok vinyl drinking vinegar selfies food truck af venmo migas. Knausgaard truffaut master cleanse, activated charcoal chartreuse leggings mumblecore raclette readymade affogato cray franzen salvia lyft tattooed. Hot chicken air plant DIY farm-to-table roof party flannel. Mumblecore chambray direct trade butcher hoodie. Taxidermy tote bag knausgaard raw denim.
+        
+        Oh. You need a little dummy text for your mockup? How quaint.
+        
+        I bet you’re still using Bootstrap too…</p>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>Lorem ipsum dolor amet 8-bit lumbersexual kickstarter chartreuse XOXO gluten-free. Etsy kitsch cloud bread, echo park keytar meh next level keffiyeh flannel chartreuse franzen bitters tote bag disrupt. Forage echo park schlitz knausgaard polaroid tote bag meh. Whatever lomo viral, mixtape actually pabst before they sold out keffiyeh ugh gentrify irony.
+
+        Ethical letterpress copper mug ramps marfa prism lumbersexual chillwave leggings pork belly banjo woke. Tilde la croix marfa VHS hoodie twee. Keffiyeh gastropub williamsburg, actually tofu artisan iPhone vice 90's synth sustainable intelligentsia. Gastropub tumeric tousled humblebrag. Sartorial microdosing offal palo santo yr skateboard XOXO. Brunch ramps lumbersexual, organic viral yuccie hot chicken kitsch try-hard irony PBR&B. Sriracha kale chips blue bottle neutra, plaid PBR&B wayfarers fam narwhal coloring book.
+        
+        Lomo snackwave jean shorts slow-carb, butcher williamsburg bespoke tattooed skateboard adaptogen everyday carry YOLO. Offal activated charcoal hell of pitchfork portland. Fixie palo santo edison bulb heirloom, blue bottle vegan literally cold-pressed. Distillery skateboard kogi ramps drinking vinegar messenger bag palo santo hoodie street art occupy crucifix PBR&B heirloom. Iceland ethical slow-carb hoodie franzen cardigan lumbersexual mustache craft beer poke next level. Adaptogen shaman normcore occupy, pabst food truck hoodie cardigan vegan beard woke. Pour-over kitsch keffiyeh shaman kale chips disrupt palo santo af pitchfork butcher.
+        
+        Cardigan retro selfies poke, health goth pork belly art party poutine. Actually XOXO readymade vexillologist pug, direct trade biodiesel copper mug edison bulb banjo la croix ugh. Literally put a bird on it godard tattooed, before they sold out leggings tacos whatever venmo twee. Meggings taxidermy sustainable, lumbersexual cornhole skateboard blog palo santo banjo hell of fingerstache mumblecore tbh. Skateboard chicharrones selvage taiyaki wolf neutra truffaut beard pour-over quinoa four loko whatever messenger bag iPhone. Sartorial fixie franzen schlitz meh pickled jianbing church-key live-edge distillery subway tile cray. Craft beer stumptown flannel, mustache pitchfork sartorial microdosing crucifix kinfolk.
+        
+        Pug waistcoat pour-over, man bun seitan raw denim vegan. Messenger bag ramps taiyaki, salvia pitchfork af artisan lomo pug bicycle rights coloring book. Austin put a bird on it DIY distillery lomo taiyaki. Narwhal bicycle rights woke hammock. Salvia iceland hoodie, hell of af beard organic echo park cronut single-origin coffee hot chicken farm-to-table seitan truffaut freegan. Bicycle rights kale chips portland live-edge. Post-ironic literally taxidermy chicharrones seitan hoodie.
+        
+        Try-hard ennui thundercats, blue bottle wayfarers mixtape jianbing slow-carb subway tile portland DIY master cleanse truffaut. VHS keytar biodiesel mixtape echo park, skateboard readymade pok pok vinyl drinking vinegar selfies food truck af venmo migas. Knausgaard truffaut master cleanse, activated charcoal chartreuse leggings mumblecore raclette readymade affogato cray franzen salvia lyft tattooed. Hot chicken air plant DIY farm-to-table roof party flannel. Mumblecore chambray direct trade butcher hoodie. Taxidermy tote bag knausgaard raw denim.
+        
+        Oh. You need a little dummy text for your mockup? How quaint.
+        
+        I bet you’re still using Bootstrap too…</p>
+  </div>
+</div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+
+</body>
+</html>
